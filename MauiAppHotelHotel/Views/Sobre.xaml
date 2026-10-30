@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotelHotel.Views.Sobre"
+             Title="Sobre">
+    
+    
+    <VerticalStackLayout>
+        <Label 
+            Text="Sobre o Aplicativo"
+            FontSize="24"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Text="Desenvolvido por: Suzana do Carmo"
+               FontSize="18"
+               HorizontalOptions="Center" />
+
+        <Label Text="Ano de Desenvolvimento: 2026"
+               FontSize="16"
+               TextColor="Gray"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+    
+    
+</ContentPage>
