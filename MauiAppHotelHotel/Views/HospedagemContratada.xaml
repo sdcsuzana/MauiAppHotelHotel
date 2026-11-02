@@ -3,14 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotelHotel.Views.HospedagemContratada"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="{StaticResource Gray900}">
+             BackgroundColor="{StaticResource White}">
              
      
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
         <Label Text="Suíte Super Luxo" 
                TextColor="{StaticResource PrimaryDark}"
-               FontFamily="KalamLight"
+               FontFamily="OpenSans-Semibold"
                FontSize="50"
                HorizontalTextAlignment="Center" />
 
@@ -52,7 +52,7 @@
         <Frame Margin="10">
             <HorizontalStackLayout>
                 <Label Text="Valor Total: " />
-                <Label Text="R$750" />                
+                <Label Text="R$1350" />                
             </HorizontalStackLayout>          
             
         </Frame>

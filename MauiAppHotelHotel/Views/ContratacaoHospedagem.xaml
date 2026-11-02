@@ -4,15 +4,16 @@
              x:Class="MauiAppHotelHotel.Views.ContratacaoHospedagem"
              Title="ContratacaoHospedagem"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="{StaticResource Gray900}">
+             BackgroundColor="{StaticResource White}">
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
         
         <Label  Text="Cálculo da Diária"
-                FontFamily="KalamLight"
+                FontFamily="OpenSans-Semibold"
                 FontSize="50"
-                TextColor="{StaticResource PrimaryDark}" />
+                TextColor="{StaticResource PrimaryDark}"
+                HorizontalTextAlignment="Center"/>
 
         <Frame Padding="10">
             <VerticalStackLayout>
