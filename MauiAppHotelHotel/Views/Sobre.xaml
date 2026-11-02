@@ -2,23 +2,29 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotelHotel.Views.Sobre"
-             Title="Sobre">
+             Title="Sobre"
+             BackgroundColor="{StaticResource White}">
     
     
     <VerticalStackLayout>
         <Label 
             Text="Sobre o Aplicativo"
+            TextColor="{StaticResource Magenta}"
+            FontFamily="OpenSans-Semibold"
             FontSize="24"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <Label Text="Desenvolvido por: Suzana do Carmo"
+               TextColor="{StaticResource Magenta}"
+               FontFamily="OpenSans-Semibold"
                FontSize="18"
                HorizontalOptions="Center" />
 
         <Label Text="Ano de Desenvolvimento: 2026"
+               TextColor="{StaticResource Magenta}"
+               FontFamily="OpenSans-Semibold"
                FontSize="16"
-               TextColor="Gray"
                HorizontalOptions="Center" />
     </VerticalStackLayout>
     

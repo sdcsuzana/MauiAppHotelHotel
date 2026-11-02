@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotelHotel.Views.Depoimentos"
+             Title="Depoimentos dos clientes"
+             BackgroundColor="{StaticResource White}">
+
+
+    <VerticalStackLayout>
+
+      
+        <Label Text="A Suíte Super Luxo superou todas as minhas expectativas! A vista panorâmica da varanda com a hidromassagem privativa transformou nossa viagem em um momento inesquecível."
+           TextColor="{StaticResource OffBlack}"
+           FontFamily="OpenSans-Regular"
+           FontSize="12" 
+           Margin="10"/>
+        <Label Text="- Mariana Cavalcanti, 38 anos"
+           TextColor="{StaticResource Magenta}"
+           FontFamily="OpenSans-Semibold"
+           FontSize="10"
+           Margin="20"/>
+
+       
+        <Label Text="Fiquei hospedada na Suíte Luxo e me impressionei com o conforto da cama king size. Ambiente extremamente limpo, aconchegante e com um chuveiro maravilhoso."
+           TextColor="{StaticResource OffBlack}"
+           FontFamily="OpenSans-Regular"
+           FontSize="12" 
+           Margin="10"/>
+        <Label Text="- Beatriz Alencar, 45 anos"
+           TextColor="{StaticResource Magenta}"
+           FontFamily="OpenSans-Semibold"
+           FontSize="10"
+           Margin="20"/>
+
+       
+        <Label Text="Viajei sozinho a trabalho e a Suíte Single me atendeu perfeitamente. Espaço muito bem otimizado, Wi-Fi rápido e uma bancada excelente para usar o notebook."
+           TextColor="{StaticResource OffBlack}"
+           FontFamily="OpenSans-Regular"
+           FontSize="12"
+           Margin="10"/>
+        <Label Text="- Lucas Andrade, 29 anos"
+           TextColor="{StaticResource Magenta}"
+           FontFamily="OpenSans-Semibold"
+           FontSize="10"
+           Margin="20"/>
+
+        
+        <Label Text="A Suíte Crise cumpre exatamente o que promete: preço imbatível para quem só precisa de um teto e uma cama limpa para dormir! Econômica e direta ao ponto."
+           TextColor="{StaticResource OffBlack}"
+           FontFamily="OpenSans-Regular"
+           FontSize="12" 
+           Margin="10"/>
+        <Label Text="- Thiago Martins, 22 anos"
+           TextColor="{StaticResource Magenta}"
+           FontFamily="OpenSans-Semibold"
+           FontSize="10"
+           Margin="20"/>
+
+    </VerticalStackLayout>
+</ContentPage>

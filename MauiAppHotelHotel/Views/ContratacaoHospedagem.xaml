@@ -12,7 +12,7 @@
         <Label  Text="Cálculo da Diária"
                 FontFamily="OpenSans-Semibold"
                 FontSize="50"
-                TextColor="{StaticResource PrimaryDark}"
+                TextColor="{StaticResource Magenta}"
                 HorizontalTextAlignment="Center"/>
 
         <Frame Padding="10">
@@ -24,7 +24,7 @@
                            Text="Adultos:" />
 
                     <Label Grid.Row="0" Grid.Column="1"
-                           TextColor="{StaticResource PrimaryDark}"
+                           TextColor="{StaticResource Magenta}"
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_adultos}"/>
 
@@ -39,7 +39,7 @@
 
 
                     <Label Grid.Row="1" Grid.Column="1"
-                           TextColor="{StaticResource PrimaryDark}"
+                           TextColor="{StaticResource Magenta}"
                            Text="{Binding Value}"
                            BindingContext="{x:Reference stp_criancas}"/>
 
@@ -60,6 +60,7 @@
                        Margin="10">
 
                     <VerticalStackLayout>
+                        
                         <Label Text="Período da Estadia" />
                         
                         <HorizontalStackLayout>
@@ -79,7 +80,9 @@
 
                 </Frame>
 
-                <Button Text="Avançar" Clicked="Button_Clicked"  />
+                <Button Text="Avançar" Clicked="Button_Clicked"
+                        TextColor="{StaticResource Magenta}"
+                        FontFamily="OpenSans-Semibold"/>
 
 
 

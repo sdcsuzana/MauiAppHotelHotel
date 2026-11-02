@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotelHotel.Views.Escolha_nosso_hotel"
+             Title="Escolha nosso hotel"
+             BackgroundColor="{StaticResource White}">
+    
+    <VerticalStackLayout>
+        
+        <Label Text="Escolha nosso hotel"
+            TextColor="{StaticResource Magenta}"            
+            FontFamily="OpenSans-Regular"
+            FontSize="40" 
+            Margin="10"/>
+        <Label Text="Aqui cada detalhe é pensado para proporcionar uma experiência inesquecível de conforto, descanso e hospitalidade de excelência. Nossa estrutura conta com acomodações diversificadas que atendem desde quem busca o máximo requinte na Suíte Super Luxo até quem procura praticidade e economia na Suíte Crise. Oferecemos ambientes higienizados, aconchegantes e totalmente equipados para garantir que sua única preocupação seja aproveitar a viagem ao máximo. Localizado em uma área privilegiada, o hotel facilita seu deslocamento para os melhores pontos da cidade com praticidade. Contamos com uma equipe atenciosa e preparada para oferecer um atendimento acolhedor durante toda a sua estadia. Além disso, dispomos de comodidades pensadas para todas as necessidades, como Wi-Fi de alta velocidade e espaços ideais para relaxar ou trabalhar. Se a sua viagem é em família, a dois ou a trabalho, garantimos a combinação perfeita entre ótimo custo-benefício e momentos inesquecíveis. Escolher o nosso hotel é optar pela segurança de uma hospedagem sem imprevistos e com alto padrão de qualidade. Venha viver essa experiência única e transforme seus dias de descanso na melhor lembrança das suas férias!"
+            TextColor="{StaticResource OffBlack}"
+            FontFamily="OpenSans-Semibold"
+            FontSize="14"
+            Margin="20"/>
+
+    </VerticalStackLayout>
+</ContentPage>

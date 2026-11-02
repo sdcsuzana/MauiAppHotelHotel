@@ -9,7 +9,7 @@
     <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
         <Label Text="Suíte Super Luxo" 
-               TextColor="{StaticResource PrimaryDark}"
+               TextColor="{StaticResource Magenta}"
                FontFamily="OpenSans-Semibold"
                FontSize="50"
                HorizontalTextAlignment="Center" />
@@ -20,14 +20,14 @@
                 <HorizontalStackLayout>
                     <Label Text="Adultos: " />
                     <Label Text="2" 
-                           TextColor="{StaticResource PrimaryDark}" />
+                           TextColor="{StaticResource Magenta}" />
                 </HorizontalStackLayout>
                 
 
                 <HorizontalStackLayout>
                     <Label Text="Crianças: " />
                     <Label Text="1"
-                           TextColor="{StaticResource PrimaryDark}" />
+                           TextColor="{StaticResource Magenta}" />
                     
                 </HorizontalStackLayout>
                 
@@ -59,7 +59,9 @@
 
         <Button Text="Voltar" 
                 HorizontalOptions="Center"
-                Clicked="Button_Clicked" />
+                Clicked="Button_Clicked"
+                TextColor="{StaticResource Magenta}"
+                FontFamily="OpenSans-Semibold"/>
 
 
 
